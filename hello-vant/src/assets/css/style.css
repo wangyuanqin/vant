@@ -1,0 +1,17 @@
+.header .van-nav-bar{
+    background: #4b0;
+}
+.header .van-nav-bar__text{color:#fff;}
+.header .van-nav-bar__title{color:#fff;}
+.header .van-nav-bar .van-icon{
+    color:#fff;
+}
+.content{
+    margin-top: 46px;
+    margin-bottom: 46px;
+}
+.footer .van-tabbar-item--active{
+    background-color:#4b0;
+    color:#fff;
+}
+.swiperImg{width:100%;}
