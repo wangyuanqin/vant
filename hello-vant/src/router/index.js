@@ -18,16 +18,16 @@ export default new Router({
                 name: 'productIndex',
                 component: resolve => require(['../pages/product/index.vue'], resolve),
                 meta: {title: '产品'}
-            },,{
+            },{
                 path: 'showIndex',
                 name: 'showIndex',
                 component: resolve => require(['../pages/show/index.vue'], resolve),
-                meta: {title: '大厅'}
-            },,{
+                meta: {title: '展示'}
+            },{
                 path: 'userIndex',
                 name: 'userIndex',
                 component: resolve => require(['../pages/user/index.vue'], resolve),
-                meta: {title: '用户'}
+                meta: {title: '个人中心'}
             },
         ]
     }]
