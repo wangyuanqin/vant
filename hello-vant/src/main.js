@@ -6,8 +6,10 @@ import 'vant/lib/index.css';
 import router from './router';
 import store from './store'
 import axios from 'axios'
+import Vuex from 'vuex'
 
 Vue.use(Vant);
+Vue.use(Vuex)
 let bus = new Vue();
 Vue.prototype.$store=store;
 Vue.prototype.$bus = bus;
